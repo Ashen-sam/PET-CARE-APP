@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Sam_pet_care.CustomerActivity2"
+    android:background="@drawable/user">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F8F8"
+        android:backgroundTint="#F8F8F8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="center"
+                android:text="REGISTER PET INFO"
+                android:textColor="#00BCD4"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txt_CstmrName"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#84B6CA"
+                android:ems="10"
+                android:fontFamily="@font/fredoka_one"
+                android:hint="Full name"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textAlignment="viewStart"
+                android:textColor="#292929"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/txt_CstmrAddress"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#84B6CA"
+                android:ems="10"
+                android:fontFamily="@font/fredoka_one"
+                android:hint="Pet Name"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textColor="#292929"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/txt_CstmrPhone"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#84B6CA"
+                android:ems="10"
+                android:fontFamily="@font/fredoka_one"
+                android:hint="Phone Number"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textColor="#292929"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/txt_CstmrNIC"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#84B6CA"
+                android:ems="10"
+                android:fontFamily="@font/fredoka_one"
+                android:hint="Pet Breed"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textColor="#292929"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/txt_PropType"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#84B6CA"
+                android:ems="10"
+                android:fontFamily="@font/fredoka_one"
+                android:hint="cat or dog"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textColor="#292929"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/txt_BeRooms"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#84B6CA"
+                android:ems="10"
+                android:fontFamily="@font/fredoka_one"
+                android:hint="Pet Age"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textColor="#292929"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/txt_BaRooms"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#84B6CA"
+                android:ems="10"
+                android:fontFamily="@font/fredoka_one"
+                android:hint="Pet Sex"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textColor="#292929"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/txt_times"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#84B6CA"
+                android:ems="10"
+                android:fontFamily="@font/fredoka_one"
+                android:hint="No.of days"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textColor="#292929"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Price  for the Hour: Rs.350/="
+                android:textAlignment="center"
+                android:textColor="#FF4949"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_Post"
+                android:layout_width="300dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:background="#44A8D1"
+                android:backgroundTint="#44A8D1"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Post Ad"
+                android:textColor="#FFFEFE" />
+
+            <Button
+                android:id="@+id/btnViewAd"
+                android:layout_width="301dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#44A8D1"
+                android:backgroundTint="#44A8D1"
+                android:fontFamily="@font/fredoka_one"
+                android:text="View Ad"
+                android:textColor="#FFFEFE" />
+
+            <Button
+                android:id="@+id/btnAddReviews"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#44A8D1"
+                android:backgroundTint="#44A8D1"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Add Review"
+                android:textColor="#FFFEFE" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/baloo_bhai</item>
+        <item>@font/baloo_chettan</item>
+        <item>@font/bowlby_one_sc</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/fredoka_one</item>
+    </array>
+</resources>
